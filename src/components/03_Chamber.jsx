@@ -1,12 +1,11 @@
-import Rooms from "./04_Rooms";
+import Room from "./04_Rooms";
 
-export default function Chamber({ question, answer, handleAnswer }) {
+export default function Chamber() {
   return (
-    <div className="flex flex-col justify-center items-center pt-10 bg-yellow-500 w-[90%]">
+    <div className="flex flex-col justify-center items-center pt-10 bg-yellow-400 w-[90%]">
       <h1>Chamber</h1>
-      {/* {Chamber} */}
-  
-      <Rooms question={question} answer={answer} handleAnswer={handleAnswer} />
+      {/* Room */}
+      <Room />
     </div>
   );
 }

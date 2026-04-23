@@ -1,15 +1,11 @@
-import Corridor from "./06_Corridor";
-export default function Hall({ question, answer, handleAnswer }) {
+import Corridor from "./06_Corridor"
+
+export default function Hall() {
   return (
-    <div className="flex flex-col justify-center items-center pt-10 bg-green-700 w-[90%]">
+    <div className="flex flex-col justify-center items-center pt-10 bg-emerald-500 w-[90%]">
       <h1>Hall</h1>
-      {/* {Chamber} */}
-    
-      <Corridor
-        question={question}
-        answer={answer}
-        handleAnswer={handleAnswer}
-      />
+      {/* Corridor */}
+      <Corridor  />
     </div>
   );
 }
